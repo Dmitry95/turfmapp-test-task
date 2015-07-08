@@ -1,11 +1,3 @@
-/*$(window).resize(function(){
-	$('.center-block').css({
-		position:'absolute',
-		left: ($('.center-block').parent().width() - $('.center-block').outerWidth())/2,
-		top: ($('.center-block').parent().height() - $('.center-block').outerHeight())/2
-	});
-});*/
-
 $(window).resize(function(){
 	$('.center-block').each(function() {
 		$(this).css({
@@ -39,6 +31,15 @@ $('#next-game-carousel').on('slid.bs.carousel', function () {
 		});
 	});
 });
+
+$('#accordion').on('shown.bs.collapse', function () {
+  $('.center-block-horizontal').each(function() {
+		$(this).css({
+			position:'relative',
+			left: ($(this).parent().width() - $(this).outerWidth())/2
+		});
+	});
+})
 
 
 $(document).ready(function() {
