@@ -20,6 +20,7 @@
 body {
 	padding-top: 60px;
 	font-family: AvenirNext-Regular;
+	background-color: #FAFAFA;
 }
 
 h1, 
@@ -80,8 +81,6 @@ header.navbar {
 .carousel-block-horizontal {
 	display: inline-block;
 }
-
-
 
 .green {
 	background-color: #80AF65;
@@ -198,7 +197,7 @@ header.navbar {
 	border-radius: 10%;
 	font-family: AvenirNext-Demi;
 	font-size: 70px;
-	padding-top: 7px;
+	padding-top: 3px;
 	text-align: center;
 	display: inline-block;
 }
@@ -210,7 +209,7 @@ header.navbar {
 	border-radius: 10%;
 	font-family: AvenirNext-Demi;
 	font-size: 26px;
-	padding-top: 5px;
+	padding-top: 3px;
 	text-align: center;
 	display: inline-block;
 }
@@ -227,7 +226,7 @@ header.navbar {
 
 .score-lg p {
 	line-height: 1;
-	margin: 12px 0 0 0;
+	margin: 8px 0 0 0;
 }
 
 .time {
