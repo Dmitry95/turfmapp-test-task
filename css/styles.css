@@ -64,12 +64,14 @@
 /*==========  Styles  ==========*/
 
 body {
+	padding-top: 60px; 
 	font-family: AvenirNext-Regular;
 }
 
-.container-fluid {
-	margin: 0;
-	padding: 0;
+
+
+.clr {
+	clear: both;
 }
 
 /*  Header  */
@@ -86,18 +88,19 @@ header.navbar {
 	padding: 15px;
 }
 
-.navbar-right {
-	padding: 0 15px;
+.nav-right {
+	padding: 0;
 	list-style-type: none;
+	float: right;
 }
 
-.navbar-right a {
+.nav-right a {
 	color: #FFF;
 	font-size: 14px;
 	font-family: AvenirNext-Demi;
 }
 
-.navbar-right a:hover {
+.nav-right a:hover {
 	text-decoration: none;
 }
 
