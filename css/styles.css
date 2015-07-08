@@ -64,7 +64,7 @@
 /*==========  Styles  ==========*/
 
 body {
-	padding-top: 60px; 
+	padding-top: 60px;
 	font-family: AvenirNext-Regular;
 }
 
@@ -142,7 +142,7 @@ header.navbar {
 	background-color: #F16A63;
 }
 
-/*  Right Content Block  */
+/*  Left Content Block  */
 
 .header-left-block {
 	height: 100px;
@@ -197,6 +197,7 @@ header.navbar {
 
 .subtitle-block {
 	height: 64px;
+
 }
 
 .subtitle h2 {
@@ -209,7 +210,11 @@ header.navbar {
 }
 
 .subtitle {
-	padding: 30px 0 10px 0;
+	padding: 22px 0 18px 0;
+}
+
+.content {
+	padding: 20px 0;
 }
 
 .game-id {
@@ -277,7 +282,7 @@ header.navbar {
 
 .short-description {
 	font-size: 20px;
-	padding: 30px 0 10px 0;
+	padding: 10px 0 10px 0;
 	font-family: AvenirNext-Regular;
 	font-weight: 700;
 	color: #546A67;
@@ -295,3 +300,174 @@ header.navbar {
 	line-height: 1;
 	margin: 2px 0 0 0;
 }
+
+/*  /Left Content Block  */
+
+
+/*  Right Content Block  */
+
+.right-block {
+	border-left: 1px solid #E7E7E7;
+}
+
+.header-right-block {
+	height: 100px;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.title-right-block {
+	display: inline-block;
+}
+
+.title-right-block ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.title-right-block li {
+	display: inline-block;
+	padding: 0 40px;
+}
+
+.title-right-block a {
+	list-style-type: none;
+	color: #546A67;
+	font-size: 24px;
+	font-family: AvenirNext-Regular;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding-top: 3px;
+}
+
+.title-right-block a.active {
+	list-style-type: none;
+	color: #80Af65;
+}
+
+.title-right-block a:hover,
+.title-right-block a:focus {
+	text-decoration: none;
+}
+
+.table-score {
+	color: #546A67;
+	font-family: AvenirNext-Regular;
+	font-size: 24px;
+	text-align: center;
+}
+
+.table-score td {
+	padding: 8px 20px;
+}
+
+.table-heading {
+	font-family: AvenirNext-Regular;
+	font-weight: 700;
+	color: #999999;
+	font-size: 20px;
+}
+
+.summa {
+	font-family: AvenirNext-Regular;
+	color: #80AF65;
+	font-family: AvenirNext-Demi;
+	font-size: 26px;
+}
+
+.game-id {
+	display: inline-block;
+}
+
+.result-score {
+	display: inline-block;
+}
+
+.score-sm {
+	display: inline-block;
+	font-family: AvenirNext-Regular;
+	font-weight: 700;
+	color: #546A67;
+	font-size: 36px;
+	padding: 0 20px;
+}
+
+.note {
+	display: inline-block;
+	font-size: 22px;
+	color: #CCCCCC;
+	font-family: AvenirNext-Regular;
+	float: right;
+	margin-right: 10px;
+}
+
+.note .live {
+	display: inline-block;
+	font-size: 26px;
+	color: #F16A63;
+	text-transform: uppercase;
+	font-family: AvenirNext-Regular;
+}
+
+.note .full-time {
+	display: inline-block;
+	font-size: 26px;
+	color: #546A67;
+	text-transform: uppercase;
+	font-family: AvenirNext-Regular;
+}
+
+.imp {
+	color: #80AF65;
+}
+
+.added-at {
+	display: inline-block;
+	color: #8DAFB8;
+	font-size: 26px;
+}
+
+.added-by {
+	color: #808080;
+	font-size: 20px;
+}
+
+.added-by a {
+	color: #80AF65;
+}
+
+.added-by a:hover,
+.added-by a:focus {
+	text-decoration: none;
+}
+
+.absol-pos {
+	position: absolute;
+	margin: 0;
+}
+
+.game-result {
+	border-bottom: 1px solid #E7E7E7;
+	padding: 30px 30px 20px 30px;
+}
+
+.the-game {
+	padding: 30px 30px 20px 30px;
+}
+
+.added-at {
+	position: absolute;
+	margin: 0;
+}
+
+.score-sm {
+	text-align: center;
+}
+
+.content,
+.subtitle-block {
+	border-bottom: 1px solid #E7E7E7;
+}
+
+/*  /Right Content Block  */
