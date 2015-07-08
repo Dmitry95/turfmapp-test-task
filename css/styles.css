@@ -62,3 +62,50 @@
 }
 
 /*==========  Styles  ==========*/
+
+body {
+	font-family: AvenirNext-Regular;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+/*  Header  */
+
+.navbar-header {
+	margin: 0;
+	padding: 0;
+}
+
+header.navbar {
+	height: 60px;
+	background-color: #80AF65;
+	color: #FFF;
+	padding: 15px;
+}
+
+.navbar-right {
+	padding: 0 15px;
+	list-style-type: none;
+}
+
+.navbar-right a {
+	color: #FFF;
+	font-size: 14px;
+	font-family: AvenirNext-Demi;
+}
+
+.navbar-right a:hover {
+	text-decoration: none;
+}
+
+.user-avatar-xs {
+	width:30px;
+	height: 30px;
+	border-radius: 10%;
+	margin: 0px 6px;
+}
+
+/*  /Header  */
