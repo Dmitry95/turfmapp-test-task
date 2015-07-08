@@ -80,29 +80,59 @@
                 </div>
               </div>
             </div>
-            <div class="regular-block">
+            <div class="regular-block last-block">
               <div class="subtitle-block">
                 <div class="center-block-horizontal subtitle">
                   <h2>Next Game</h2>
                 </div>
               </div>
-              <div class="content">
-                <div class="center-block-horizontal short-description">
-                  <p>If score stands:</p>
+              <div id="next-game-carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#next-game-carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#next-game-carousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <div class="content slider-block">
+                      <div class="carousel-block-horizontal short-description">
+                        <p>If score stands:</p>
+                      </div>
+                      <div class="clr"></div>
+                      <div class="carousel-block-horizontal vs-table">
+                        <div class="player-sm red">
+                          <span>C</span>
+                        </div>
+                        <div class="vs">
+                          <p>vs</p>
+                        </div>
+                        <div class="player-sm yellow">
+                          <span>D</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="content slider-block">
+                      <div class="carousel-block-horizontal short-description">
+                        <p>If score doesn't stand:</p>
+                      </div>
+                      <div class="clr"></div>
+                      <div class="carousel-block-horizontal vs-table">
+                        <div class="player-sm green">
+                          <span>A</span>
+                        </div>
+                        <div class="vs">
+                          <p>vs</p>
+                        </div>
+                        <div class="player-sm red">
+                          <span>C</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
                 </div>
-                <div class="clr"></div>
-                <div class="center-block-horizontal vs-table">
-                  <div class="player-sm red">
-                    <span>C</span>
-                  </div>
-                  <div class="vs">
-                    <p>vs</p>
-                  </div>
-                  <div class="player-sm yellow">
-                    <span>D</span>
-                  </div>
-                </div>
-              </div>
+              </div>           
             </div>
         </div>
         <div class="content-column right-block col-md-offset-6 col-lg-offset-6 col-xs-12 col-sm-12 col-md-6 col-lg-6">

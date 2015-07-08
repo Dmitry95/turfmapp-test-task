@@ -76,9 +76,12 @@ header.navbar {
 	padding: 0;
 }
 
-.center-block-horizontal {
+.center-block-horizontal,
+.carousel-block-horizontal {
 	display: inline-block;
 }
+
+
 
 .green {
 	background-color: #80AF65;
@@ -219,7 +222,7 @@ header.navbar {
 	font-weight: 800;
 	vertical-align: top;
 	display: inline-block;
-	padding: 0 40px 0 40px;
+	padding: 0 40px;
 }
 
 .score-lg p {
@@ -424,7 +427,27 @@ header.navbar {
 	border-bottom: 1px solid #E7E7E7;
 }
 
+.slider-block {
+	padding-bottom: 50px;
+}
+
 /*  /Right Content Block  */
+
+.carousel-indicators {
+  bottom: 5px;
+}
+
+.carousel-indicators li {
+  background-color: #EBEBEB;
+  border-color: #EBEBEB;
+  margin: 0 6px; 
+}
+.carousel-indicators .active {
+  background-color: #C2C2C2;
+  border-color: #C2C2C2;
+}
+
+
 
 
 /*==========  Mobile First Method  ==========*/
@@ -480,9 +503,80 @@ header.navbar {
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 600px) {
+	.game-id {
+		display: block !important;
+		position: static;
+		text-align: center;
+		margin: 10px;
+	}
+
+	.note {
+		display: block;
+		position: static;
+		text-align: center;
+		clear: both;
+		padding-top: 50px;
+	}
+
+	.table-score td {
+		padding: 3px 4px;
+	}
+
+	.vs {
+		padding: 0 5px;
+	}
+
+	.score-lg {
+		padding: 0 7px;
+	}
+
+	.question-mark {
+		right: 9px;
+	}
+
+	.title-right-block li {
+		padding: 0 5px;
+	}
+
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 465px) {
+	.player-lg {
+		height: 50px;
+		width: 50px;
+		color: #FFF;
+		border-radius: 10%;
+		font-family: AvenirNext-Demi;
+		font-size: 35px;
+		padding-top: 3px;
+		text-align: center;
+		display: inline-block;
+	}
+
+
+	.score-lg {
+		font-size: 30px;
+		display: block;
+		padding: 0 10px;
+		display: inline-block;
+	}
+
+	.score-lg p {
+		margin: 12px 0 0 0;
+	}
+
+	.score-sm {
+		padding:0 4px;
+	}
 }
+
+@media only screen and (max-width : 420px) {
+	.note,
+	.question-mark,
+	.added-at {
+		display: none;
+	}
+}
+
+

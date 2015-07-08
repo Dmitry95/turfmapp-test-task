@@ -21,10 +21,29 @@ $(window).resize(function(){
 			left: ($(this).parent().width() - $(this).outerWidth())/2
 		});
 	});
+
+	$('.carousel-block-horizontal').each(function() {
+		$(this).css({
+			position:'relative',
+			left: ($(this).parent().width() - $(this).outerWidth())/2
+		});
+
+	});
+});
+
+$('#next-game-carousel').on('slid.bs.carousel', function () {
+  $('.carousel-block-horizontal').each(function() {
+		$(this).css({
+			position:'relative',
+			left: ($(this).parent().width() - $(this).outerWidth())/2
+		});
+	});
 });
 
 
 $(document).ready(function() {
 	$(window).resize();
-
+	$('#next-game-carousel').carousel({
+      interval: 10000
+    })
 });
