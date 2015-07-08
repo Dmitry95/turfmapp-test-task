@@ -39,25 +39,31 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="content-column col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="content-column left-block col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <div class="header-left-block">
-            <div class="title-left-block">
+            <div class="center-block title-left-block">
               <div class="play-field"></div>
               <h1>Mini Challenge</h1>
             </div>
+            <a href="#">
             <div class="question-mark">
               <span>?</span>
             </div>
+            </a>
+            <div class="clr"></div>
           </div>
           <div class="regular-block">
-              <div class="subtitle">
-                <h2>Current game</h2>
+              <div class="subtitle-block">
+                <div class="center-block-horizontal subtitle">
+                  <h2>Current game</h2>
+                </div>
               </div>
               <div class="content">
-                <div class="game-id">
+                <div class="center-block-horizontal game-id">
                   <h3>Game 23</h3>
                 </div>
-                <div class="score-table">
+                <div class="clr"></div>
+                <div class="center-block-horizontal score-table">
                   <div class="player-lg green">
                     <span>A</span>
                   </div>
@@ -68,17 +74,24 @@
                     <span>B</span>
                   </div>
                 </div>
-                <div class="time">
+                <div class="clr"></div>
+                <div class="center-block-horizontal time">
                   <p>7:00</p>
                 </div>
               </div>
             </div>
             <div class="regular-block">
-              <div class="subtitle">
-                <h2>Next Game</h2>
+              <div class="subtitle-block">
+                <div style="display:inline-block;" class="center-block subtitle">
+                  <h2>Next Game</h2>
+                </div>
               </div>
               <div class="content">
-                <div class="vs-table">
+                <div class="center-block-horizontal short-description">
+                  <p>If score stands:</p>
+                </div>
+                <div class="clr"></div>
+                <div class="center-block-horizontal vs-table">
                   <div class="player-sm red">
                     <span>C</span>
                   </div>
@@ -97,7 +110,7 @@
             <div class="title-right-block">
               <ul>
                 <li>
-                  <a href="#">Table</a>
+                  <a class="active" href="#">Table</a>
                 </li>
                 <li>
                   <a href="#">Teams</a>
@@ -137,7 +150,7 @@
                 <td>2</td>
                 <td>
                   <div class="player-sm green">
-                    <span>B</span>
+                    <span>A</span>
                   </div>
                 </td>
                 <td>11</td>
@@ -150,7 +163,7 @@
                 <td>3</td>
                 <td>
                   <div class="player-sm yellow">
-                    <span>B</span>
+                    <span>D</span>
                   </div>
                 </td>
                 <td>11</td>
@@ -163,7 +176,7 @@
                 <td>4</td>
                 <td>
                   <div class="player-sm red">
-                    <span>B</span>
+                    <span>C</span>
                   </div>
                 </td>
                 <td>9</td>
@@ -328,5 +341,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
+    <!-- Own scripts -->
+    <script type="text/javascript" src="js/scripts.js"></script> 
   </body>
 </html>
