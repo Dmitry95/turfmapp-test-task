@@ -446,7 +446,15 @@ header.navbar {
   border-color: #C2C2C2;
 }
 
+.subtitle-block {
+	background: #E8E8E8;
+}
 
+.center-block,
+.center-block-horizontal,
+.carousel-block-horizontal {
+	opacity: 0;
+}
 
 
 /*==========  Mobile First Method  ==========*/
